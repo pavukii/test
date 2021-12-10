@@ -690,7 +690,7 @@ console.log(email);
 
 var results = [];
 var search = ".com";
-for(var i=0; i<newList.length; i++) { // где const newText - куда скопирован массив
+for(var i=0; i<newList.length; i++) { 
   for(key in newList[i]) {
     if(newList[i][key].indexOf(search)!=-1) {
       results.push(newList[i]);
