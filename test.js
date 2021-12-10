@@ -682,11 +682,8 @@ const newList =
 		"region": "Feb 9, 2022"
 	}];
 
-console.log(newList); 
-
 let counter2 = newList.length; 
 console.log(counter2);
-
 
 const {"e-mail": email} = newList;
 console.log(email);   
