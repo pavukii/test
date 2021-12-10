@@ -684,9 +684,7 @@ const newList =
 
 let counter2 = newList.length; 
 console.log(counter2);
-
-const {"e-mail": email} = newList;
-console.log(email);   
+ 
 
 var results = [];
 var search = ".com";
