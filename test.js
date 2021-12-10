@@ -722,3 +722,5 @@ const regSep = newList.filter(function (element) {
   return (element["region"].slice(0,3) === "Sep");
 });
 console.log(regSep)
+
+//test
