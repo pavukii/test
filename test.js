@@ -683,8 +683,7 @@ const newList =
 	}];
 
 let counter2 = newList.length; 
-console.log(counter2);
- 
+console.log(counter2); 
 
 var results = [];
 var search = ".com";
@@ -718,4 +717,28 @@ const regSep = newList.filter(function (element) {
 });
 console.log(regSep)
 
-//test
+
+function vow(){
+    var a = document.getElementById("input").value;
+        flag = 0;
+
+    for (var i = 0; i < a.length; i++){
+        switch (a[i]){
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+                flag++;
+                break;
+        }
+    }
+    alert(flag);
+}
+
+function init(){
+    var button1 = document.getElementById("btn")
+    button1.onclick = vow;
+}
+
+window.onload = init;
